@@ -8,7 +8,7 @@ horas_mensais = int(input("Insira o valor de horas trabalhadas por mês: "))
 salario_por_hora = float(input("Insira o valor salarial referente a hora trabalhada: "))
 
 if horas_mensais > 40 and horas_mensais <= 160:
-    salario_total = horas_mensais*(salario_por_hora+50/100)
+    salario_total = horas_mensais*(salario_por_hora*50/100)
 else:
     salario_total = horas_mensais*salario_por_hora
 
